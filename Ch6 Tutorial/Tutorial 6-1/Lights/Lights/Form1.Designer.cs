@@ -40,9 +40,10 @@
             // lightOffPictureBox
             // 
             this.lightOffPictureBox.Image = global::Lights.Properties.Resources.LightOff;
-            this.lightOffPictureBox.Location = new System.Drawing.Point(29, 16);
+            this.lightOffPictureBox.Location = new System.Drawing.Point(44, 24);
+            this.lightOffPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lightOffPictureBox.Name = "lightOffPictureBox";
-            this.lightOffPictureBox.Size = new System.Drawing.Size(160, 185);
+            this.lightOffPictureBox.Size = new System.Drawing.Size(240, 278);
             this.lightOffPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.lightOffPictureBox.TabIndex = 1;
             this.lightOffPictureBox.TabStop = false;
@@ -50,10 +51,10 @@
             // 
             // lightOnPictureBox
             // 
-            this.lightOnPictureBox.Image = global::Lights.Properties.Resources.LightOn;
-            this.lightOnPictureBox.Location = new System.Drawing.Point(29, 16);
+            this.lightOnPictureBox.Location = new System.Drawing.Point(44, 24);
+            this.lightOnPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lightOnPictureBox.Name = "lightOnPictureBox";
-            this.lightOnPictureBox.Size = new System.Drawing.Size(160, 185);
+            this.lightOnPictureBox.Size = new System.Drawing.Size(240, 278);
             this.lightOnPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.lightOnPictureBox.TabIndex = 0;
             this.lightOnPictureBox.TabStop = false;
@@ -61,18 +62,20 @@
             // lightStateLabel
             // 
             this.lightStateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lightStateLabel.Location = new System.Drawing.Point(59, 212);
+            this.lightStateLabel.Location = new System.Drawing.Point(88, 318);
+            this.lightStateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lightStateLabel.Name = "lightStateLabel";
-            this.lightStateLabel.Size = new System.Drawing.Size(100, 21);
+            this.lightStateLabel.Size = new System.Drawing.Size(150, 32);
             this.lightStateLabel.TabIndex = 2;
             this.lightStateLabel.Text = "ON";
             this.lightStateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // switchButton
             // 
-            this.switchButton.Location = new System.Drawing.Point(31, 250);
+            this.switchButton.Location = new System.Drawing.Point(46, 375);
+            this.switchButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.switchButton.Name = "switchButton";
-            this.switchButton.Size = new System.Drawing.Size(75, 21);
+            this.switchButton.Size = new System.Drawing.Size(112, 32);
             this.switchButton.TabIndex = 3;
             this.switchButton.Text = "Switch Light";
             this.switchButton.UseVisualStyleBackColor = true;
@@ -80,9 +83,10 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(112, 250);
+            this.exitButton.Location = new System.Drawing.Point(168, 375);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 21);
+            this.exitButton.Size = new System.Drawing.Size(112, 32);
             this.exitButton.TabIndex = 4;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -90,16 +94,18 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(218, 284);
+            this.ClientSize = new System.Drawing.Size(327, 426);
             this.Controls.Add(this.lightOnPictureBox);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.switchButton);
             this.Controls.Add(this.lightStateLabel);
             this.Controls.Add(this.lightOffPictureBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Lights";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lightOffPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lightOnPictureBox)).EndInit();
             this.ResumeLayout(false);

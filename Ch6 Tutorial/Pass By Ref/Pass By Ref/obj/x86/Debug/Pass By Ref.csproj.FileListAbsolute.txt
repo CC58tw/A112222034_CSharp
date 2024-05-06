@@ -25,3 +25,13 @@ C:\Users\Tony\Documents\Books\C#\4th Edition\Student Sample Programs\Chap06\Pass
 C:\Users\Tony\Documents\Books\C#\4th Edition\Student Sample Programs\Chap06\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass_By_Ref.Form1.resources
 C:\Users\Tony\Documents\Books\C#\4th Edition\Student Sample Programs\Chap06\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass_By_Ref.Properties.Resources.resources
 C:\Users\Tony\Documents\Books\C#\4th Edition\Student Sample Programs\Chap06\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.csproj.GenerateResource.Cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\bin\Debug\Pass By Ref.exe.config
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\bin\Debug\Pass By Ref.exe
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\bin\Debug\Pass By Ref.pdb
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.csproj.AssemblyReference.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass_By_Ref.Form1.resources
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass_By_Ref.Properties.Resources.resources
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.csproj.GenerateResource.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.csproj.CoreCompileInputs.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.exe
+C:\Users\m306\A112222034\Ch6 Tutorial\Pass By Ref\Pass By Ref\obj\x86\Debug\Pass By Ref.pdb

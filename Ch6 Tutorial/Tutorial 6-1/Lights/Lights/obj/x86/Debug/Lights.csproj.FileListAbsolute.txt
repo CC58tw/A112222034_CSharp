@@ -31,3 +31,13 @@ C:\Users\User\source\repos\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug
 C:\Users\User\source\repos\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.exe
 C:\Users\User\source\repos\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.pdb
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\bin\Debug\Lights.exe.config
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\bin\Debug\Lights.exe
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\bin\Debug\Lights.pdb
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.csproj.AssemblyReference.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.Form1.resources
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.Properties.Resources.resources
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.csproj.GenerateResource.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.csproj.CoreCompileInputs.cache
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.exe
+C:\Users\m306\A112222034\Ch6 Tutorial\Tutorial 6-1\Lights\Lights\obj\x86\Debug\Lights.pdb

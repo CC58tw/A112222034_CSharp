@@ -18,14 +18,15 @@ namespace Test_Average
             InitializeComponent();
         }
 
-        private const int SIZE = 5;
+        private const int SIZE = 40;
 
         private void getScoresButton_Click(object sender, EventArgs e)
         {
             int[] scores = new int[SIZE];
             int highestScore = 0;
             int lowestScore = 0;
-            int averageScore = 0;
+            double averageScore = 0;
+            int MediumScore = 0;
             GetScoresFromFile(scores);
 
             for (int i = 0; i < scores.Length; i++)
@@ -39,6 +40,9 @@ namespace Test_Average
 
             averageScore = Average(scores);
             averageScoreLabel.Text = averageScore.ToString();
+
+            MediumScore = Medium(scores);
+            MediumLbl.Text = MediumScore.ToString();
         }
 
         private int Highest(int[] scores)
@@ -61,12 +65,17 @@ namespace Test_Average
             }
             return lowest;
         }
-        private int Average(int[] scores)
+        private double Average(int[] scores)
         {
-            int average = 0;
+            double average = 0;
             foreach (int x in scores)
             { average += x; }
-            return average / scores.Length;
+            return (double)average / scores.Length;
+        }
+        private int Medium(int[] score)
+        {
+            Array.Sort(score);
+            return score[score.Length / 2];
         }
         private void GetScoresFromFile(int[] scores)
         {
